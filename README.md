@@ -23,14 +23,12 @@ Once the identity and convolutional blocks are constructed, the ResNet architect
 
 The model is then run as a model() instance in Keras using the following commands
 
-model = ResNet50(input_shape = (64, 64, 3), classes = 6)
+> model = ResNet50(input_shape = (64, 64, 3), classes = 6)
 
-model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+> model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 
-
-This will open the iPython Notebook software and project file in your browser.
 
 ### Results
 
-Support Vector Machine with a non-linear "rbf" kernel produced a prediction accuracy of 93% on 100 training examples
+The model was trained using a CPU through 10 interations and a batch size of 32. Much better accuracy could have been produced if the session was run using CUDA on a GPU, however; this was not available for training of the model at the time. The results produced with limited number of 10 epochs produced a loss of 
