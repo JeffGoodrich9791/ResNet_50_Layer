@@ -21,7 +21,7 @@ Once the identity and convolutional blocks are constructed, the ResNet architect
 
 ### Run
 
-The model is then run as a model() instance in Keras using the following commands
+The model is then run as a model() instance in Keras with AdamOptimizer and categorical crossentropy loss funtion. 
 
 > model = ResNet50(input_shape = (64, 64, 3), classes = 6)
 
