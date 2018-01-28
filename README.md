@@ -13,7 +13,7 @@ Template code is provided in the `ResNet_50_Layer.ipynb` notebook file. The laye
 
 The first three components of the convolutional block is constructed exactly as the identity block structure. The shortcut component consist of Conv2D as well as BatchNorm, then it is added to the main path and passed through a ReLU activation function. 
 
-
+<img src= "https://github.com/JeffGoodrich9791/ResNet_50_Layer/blob/master/Convolutional Block.png" />
 
 ### Run
 
