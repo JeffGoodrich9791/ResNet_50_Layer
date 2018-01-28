@@ -9,6 +9,8 @@ Very deep neural networks do not work because they suffer from the problem of "v
 
 Template code is provided in the `ResNet_50_Layer.ipynb` notebook file. The layers of the network were constructed and compiled using Keras in an iPyton Notebook. The identity block was first constructed with 3 components of the main path then adding a shortcut value to pass through a ReLU activation. The first two components consists of Conv2D, BatchNorm, and ReLU activation while the third component has only Conv2D and BatchNorm, with the RelU activation included in the shortcut path component. 
 
+<img src= "https://github.com/JeffGoodrich9791/ResNet_50_Layer/blob/master/Identity Block.jpg" />
+
 The first three components of the convolutional block is constructed exactly as the identity block structure. The shortcut component consist of Conv2D as well as BatchNorm, then it is added to the main path and passed through a ReLU activation function. 
 
 
