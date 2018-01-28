@@ -3,7 +3,7 @@
 
 ### Summary
 
-Very deep neural networks do not work because they suffer from the problem of "vanising gradients" or "exploding gradients". The Residual Network (ResNet) proposed by He et al. (2015) utilizes "shortcut" connections of identity blocks and convolutional blocks skipping every two or three layers in the main path of the network. In ResNets, a "shortcut" or a "skip connection" allows the gradient to be directly backpropagated to earlier layers. This approach not only addresses the Vanishing Gradient problem, but also makes it easier to train while lowering training and test set errors. This project utilizes a 50 layer ResNet to capture image recognition of the SIGNS dataset.  
+Training of very deep neural networks invokes the problem of "vanising gradients" or "exploding gradients" during backpropagation of the network using stochaistic gradient descent (SGD) even with normalization and very small learning rates. The Residual Network (ResNet) proposed by He et al. (2015) utilizes "shortcut" connections of identity blocks and convolutional blocks skipping every two or three layers in the main path of the network. In ResNets, a "shortcut" or a "skip connection" allows the gradient to be directly backpropagated to earlier layers. This approach not only addresses the Vanishing Gradient problem, but also makes it easier to train while lowering training and test set errors. This project utilizes a 50 layer ResNet to capture image recognition of the SIGNS dataset.  
 
 ### Code
 
