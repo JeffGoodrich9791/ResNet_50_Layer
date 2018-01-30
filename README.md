@@ -21,7 +21,7 @@ Once the identity and convolutional blocks are constructed, the ResNet architect
 
 ### Run
 
-The model is then run as a model() instance in Keras with AdamOptimizer and categorical crossentropy loss funtion. 
+The model is then run as a model() instance in Keras with AdamOptimizer and categorical crossentropy softmax loss funtion. 
 
 > model = ResNet50(input_shape = (64, 64, 3), classes = 6)
 
@@ -31,4 +31,4 @@ The model is then run as a model() instance in Keras with AdamOptimizer and cate
 
 ### Results
 
-The model was trained using a CPU through 2 interations and a batch size of 32. Much better accuracy could have been produced if the session was run using CUDA on a GPU, however; this was not available for training of the model at the time. The results produced with limited number of 2 epochs 
+The model was trained using a CPU through 5 interations and a batch size of 32. Much better accuracy could have been produced if the session was run using CUDA on a GPU, however; this was not available for training of the model at the time. The results produced with limited number of 5 epochs was a loss: 1.3987 and accuracy: 0.6269. Much higher accuracy and lower loss is expected to be achieved by running the model through more iterations.  
