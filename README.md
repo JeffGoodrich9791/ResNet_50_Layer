@@ -31,4 +31,4 @@ The model is then run as a model() instance in Keras with AdamOptimizer and cate
 
 ### Results
 
-The model was trained using a CPU through 10 interations and a batch size of 32. Much better accuracy could have been produced if the session was run using CUDA on a GPU, however; this was not available for training of the model at the time. The results produced with limited number of 10 epochs produced a loss of 
+The model was trained using a CPU through 2 interations and a batch size of 32. Much better accuracy could have been produced if the session was run using CUDA on a GPU, however; this was not available for training of the model at the time. The results produced with limited number of 2 epochs 
